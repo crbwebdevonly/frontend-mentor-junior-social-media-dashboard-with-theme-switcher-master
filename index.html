@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <!-- displays site properly based on user's device -->
+
+          <link
+               rel="icon"
+               type="image/png"
+               sizes="32x32"
+               href="./images/favicon-32x32.png"
+          />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link
+               href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+               rel="stylesheet"
+          />
+
+          <link rel="stylesheet" href="./scss/style.css" />
+          <script src="./script.js" defer></script>
+
+          <title>Frontend Mentor | [Challenge Name Here]</title>
+
+          <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+          <style>
+               .attribution {
+                    font-size: 11px;
+                    text-align: center;
+               }
+               .attribution a {
+                    color: hsl(228, 45%, 44%);
+               }
+          </style>
+     </head>
+     <body  id="body">
+          <div class="outside-container">
+               <div class="outside-top-background"></div>
+               <div class="inside-container">
+                    <header>
+                         <div class="left">
+                              <h1>Social Media Dashboard</h1>
+                              <h2>Total Followers: 23,004</h2>
+                         </div>
+                         <div class="right">
+                              <h2>Dark Mode</h2>
+                              <div class="toggle-wrap" id="theme-toggle">
+                                   <div class="circle" id="circle"></div>
+                              </div>
+                         </div>
+                    </header>
+                    <div class="top-grid-wrap">
+                         <ul>
+                              <li>
+                                   <div class="top-line">
+                                        <img
+                                             src="./images/icon-facebook.svg"
+                                             alt=""
+                                        />
+                                        <span> @nathanf</span>
+                                   </div>
+                                   <div class="mid-line">
+                                        <h3>1987</h3>
+                                        <h4>Followers</h4>
+                                   </div>
+                                   <div class="bottom-line">
+                                        <img
+                                             src="./images/icon-up.svg"
+                                             alt=""
+                                        />
+                                        <span>12 Today</span>
+                                   </div>
+                                   <!-- <div class="color-bar"></div> -->
+                              </li>
+                              <li>
+                                   <div class="top-line">
+                                        <img
+                                             src="./images/icon-twitter.svg"
+                                             alt=""
+                                        />
+                                        <span> @nathanf </span>
+                                   </div>
+                                   <div class="mid-line">
+                                        <h3>1044</h3>
+                                        <h4>Followers</h4>
+                                   </div>
+                                   <div class="bottom-line">
+                                        <img
+                                             src="./images/icon-up.svg"
+                                             alt=""
+                                        />
+                                        <span> 99 Today</span>
+                                   </div>
+                              </li>
+                              <li>
+                                   <div class="top-line">
+                                        <img
+                                             src="./images/icon-instagram.svg"
+                                             alt=""
+                                        />
+                                        <span> @realnathanf </span>
+                                   </div>
+                                   <div class="mid-line">
+                                        <h3>11k</h3>
+                                        <h4>Followers</h4>
+                                   </div>
+                                   <div class="bottom-line">
+                                        <img
+                                             src="./images/icon-up.svg"
+                                             alt=""
+                                        />
+                                        <span>1099 Today</span>
+                                   </div>
+                              </li>
+                              <li>
+                                   <div class="top-line">
+                                        <img
+                                             src="./images/icon-youtube.svg"
+                                             alt=""
+                                        />
+                                        <span>Nathan F. </span>
+                                   </div>
+                                   <div class="mid-line">
+                                        <h3>8239</h3>
+                                        <h4>Subscribers</h4>
+                                   </div>
+                                   <div class="bottom-line">
+                                        <img
+                                             src="./images/icon-down.svg"
+                                             alt=""
+                                        />
+                                        <span>144 Today</span>
+                                   </div>
+                              </li>
+                         </ul>
+                    </div>
+
+                      
+                    <div class="bottom-grid-wrap">
+                         <h2>Overview - Today</h2>
+                         <ul>
+                              <li>
+                                   <div class="line">
+                                        <h4>Page Views</h4>
+                                        <img
+                                             src="./images/icon-facebook.svg"
+                                             alt=""
+                                        />
+                                   </div>
+                                   <div class="line">
+                                        <h3>87</h3>
+                                        <span>
+                                             <img
+                                                  src="./images/icon-up.svg"
+                                                  alt=""
+                                             />
+                                             3%
+                                        </span>
+                                   </div>
+                              </li>
+                              <li>
+                                   <div class="line">
+                                        <h4>Likes</h4>
+                                        <img
+                                             src="./images/icon-facebook.svg"
+                                             alt=""
+                                        />
+                                   </div>
+                                   <div class="line">
+                                        <h3>52</h3>
+                                        <span>
+                                             <img
+                                                  src="./images/icon-down.svg"
+                                                  alt=""
+                                             />
+                                             2%
+                                        </span>
+                                   </div>
+                              </li>
+
+                              <!-- 3 -->
+                              <li>
+                                   <div class="line">
+                                        <h4>Likes</h4>
+                                        <img
+                                             src="./images/icon-instagram.svg"
+                                             alt=""
+                                        />
+                                   </div>
+                                   <div class="line">
+                                        <h3>5462</h3>
+                                        <span>
+                                             <img
+                                                  src="./images/icon-up.svg"
+                                                  alt=""
+                                             />
+                                             2257%
+                                        </span>
+                                   </div>
+                              </li>
+                              <!-- 4 -->
+                              <li>
+                                   <div class="line">
+                                        <h4>Profile Views</h4>
+                                        <img
+                                             src="./images/icon-instagram.svg"
+                                             alt=""
+                                        />
+                                   </div>
+                                   <div class="line">
+                                        <h3>52k</h3>
+                                        <span>
+                                             <img
+                                                  src="./images/icon-up.svg"
+                                                  alt=""
+                                             />
+                                             1375%
+                                        </span>
+                                   </div>
+                              </li>
+                              <!-- 5 -->
+                              <li>
+                                   <div class="line">
+                                        <h4>Retweets</h4>
+                                        <img
+                                             src="./images/icon-twitter.svg"
+                                             alt=""
+                                        />
+                                   </div>
+                                   <div class="line">
+                                        <h3>117</h3>
+                                        <span>
+                                             <img
+                                                  src="./images/icon-up.svg"
+                                                  alt=""
+                                             />
+                                             303%
+                                        </span>
+                                   </div>
+                              </li>
+                              <!-- 6 -->
+                              <li>
+                                   <div class="line">
+                                        <h4>Likes</h4>
+                                        <img
+                                             src="./images/icon-twitter.svg"
+                                             alt=""
+                                        />
+                                   </div>
+                                   <div class="line">
+                                        <h3>507</h3>
+                                        <span>
+                                             <img
+                                                  src="./images/icon-up.svg"
+                                                  alt=""
+                                             />
+                                             553%
+                                        </span>
+                                   </div>
+                              </li>
+                              <!-- 7 -->
+                              <li>
+                                   <div class="line">
+                                        <h4>Likes</h4>
+                                        <img
+                                             src="./images/icon-youtube.svg"
+                                             alt=""
+                                        />
+                                   </div>
+                                   <div class="line">
+                                        <h3>107 </h3>
+                                        <span>
+                                             <img
+                                                  src="./images/icon-down.svg"
+                                                  alt=""
+                                             />
+                                             19%
+                                        </span>
+                                   </div>
+                              </li>
+                              <!-- 8 -->
+                              <li>
+                                   <div class="line">
+                                        <h4>Total Views  </h4>
+                                        <img
+                                             src="./images/icon-youtube.svg"
+                                             alt=""
+                                        />
+                                   </div>
+                                   <div class="line">
+                                        <h3>1407</h3>
+                                        <span>
+                                             <img
+                                                  src="./images/icon-down.svg"
+                                                  alt=""
+                                             />
+                                             12%
+                                        </span>
+                                   </div>
+                              </li>
+                         </ul>
+                    </div>
+               </div>
+          </div>
+          <div class="attribution">
+               Challenge by
+               <a
+                    href="https://www.frontendmentor.io?ref=challenge"
+                    target="_blank"
+                    >Frontend Mentor</a
+               >. Coded by <a href="#">crb</a>.
+          </div>
+     </body>
+</html>
